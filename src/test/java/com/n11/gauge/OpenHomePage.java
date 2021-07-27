@@ -1,6 +1,7 @@
 package com.n11.gauge;
 
 import com.thoughtworks.gauge.Step;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -8,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class OpenHomePage {
 
     public static WebDriver driver;
+    By loginButton = By.xpath("//*[@id=\"header\"]/div/div/div[2]/div[2]/div[2]/div/div/a[1]");
 
     @Step("Navigate to <https://n11.com>")
     public void navigateTo(String url) {
@@ -27,6 +29,6 @@ public class OpenHomePage {
 
     @Step("Click to the login button")
     public void clickLoginButton() {
-
+        driver.findElement(loginButton).click();
     }
 }

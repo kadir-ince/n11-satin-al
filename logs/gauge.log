@@ -509,3 +509,863 @@ Total time taken: 10.316s
 27-07-2021 08:48:49.661 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
 27-07-2021 08:48:49.661 [Gauge] [INFO] 
 Total time taken: 6.835s
+27-07-2021 08:54:26.103 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 08:54:26.105 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 08:54:26.106 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 08:54:26.106 [Gauge] [DEBUG] Parsing started.
+27-07-2021 08:54:26.106 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 08:54:26.108 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 08:54:26.108 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 08:54:26.109 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 08:54:26.109 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 08:54:26.132 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 08:54:26.132 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 08:54:26.132 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_project_root: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 08:54:26.132 [java] [DEBUG] overwrite_reports: true
+27-07-2021 08:54:26.132 [java] [DEBUG] logs_directory: logs
+27-07-2021 08:54:26.132 [java] [DEBUG] enable_multithreading: false
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 08:54:26.132 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_java_home: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 08:54:26.132 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 08:54:26.132 [java] [DEBUG] ***** END *****
+27-07-2021 08:54:26.749 [Gauge] [DEBUG] Checking updates...
+27-07-2021 08:54:26.750 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.221 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.341 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.461 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.579 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.759 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:27.876 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:54:29.901 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 08:54:29.901 [java] [DEBUG] found java executable in java
+27-07-2021 08:54:29.901 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 08:54:29.901 [java] [DEBUG] stdout/stderr is logged to logs/9361-java.out
+27-07-2021 08:54:30.224 [java] [DEBUG] multithreading is set to false
+27-07-2021 08:54:30.566 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 08:54:30.899 [java] [DEBUG] gauge-java took 674milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 08:54:30.899 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 674
+27-07-2021 08:54:30.900 [java] [DEBUG] starting gRPC server...
+27-07-2021 08:54:31.387 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64892
+27-07-2021 08:54:31.519 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64892
+27-07-2021 08:54:31.519 [Gauge] [DEBUG] Validation started.
+27-07-2021 08:54:34.304 [java] [DEBUG] Scanning packages for steps
+27-07-2021 08:54:34.315 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 08:54:34.315 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 08:54:34.315 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 08:54:34.315 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 08:54:34.315 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 08:54:34.315 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 08:54:34.315 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 08:54:34.319 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 08:54:34.319 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 08:54:34.319 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 08:54:34.319 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 08:54:36.760 [Gauge] [DEBUG] Validation completed.
+27-07-2021 08:54:36.761 [Gauge] [DEBUG] Run started
+27-07-2021 08:54:36.762 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 08:54:36.832 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64898
+27-07-2021 08:54:36.834 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64898
+27-07-2021 08:54:36.834 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 08:54:36.887 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 08:54:37.246 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 42022
+27-07-2021 08:54:37.246 [java] [ERROR] Only local connections are allowed.
+27-07-2021 08:54:37.246 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 08:54:37.246 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 08:54:40.706 [java] [ERROR] Jul 27, 2021 8:54:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 08:54:40.706 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 08:54:43.692 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 08:54:43.698 [java] [INFO] ----------------
+27-07-2021 08:54:43.698 [java] [INFO] |Page is opened|
+27-07-2021 08:54:43.698 [java] [INFO] ----------------
+27-07-2021 08:54:43.714 [java] [DEBUG] Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton
+27-07-2021 08:54:44.581 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 08:54:44.630 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 08:54:44.630 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 08:54:44.630 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 08:54:44.633 [java] [DEBUG] Killing Java runner...
+27-07-2021 08:54:44.634 [java] [DEBUG] Stopping execution pool...
+27-07-2021 08:54:44.634 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 08:54:44.642 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 08:54:45.055 [Gauge] [DEBUG] Runner with PID:9361 has exited
+27-07-2021 08:54:45.055 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:54:45.055 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:54:45.055 [Gauge] [INFO] 
+Total time taken: 7.818s
+27-07-2021 08:56:07.226 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 08:56:07.228 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 08:56:07.229 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 08:56:07.229 [Gauge] [DEBUG] Parsing started.
+27-07-2021 08:56:07.230 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 08:56:07.235 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 08:56:07.235 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 08:56:07.235 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 08:56:07.235 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 08:56:07.285 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 08:56:07.285 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 08:56:07.285 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_project_root: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 08:56:07.286 [java] [DEBUG] overwrite_reports: true
+27-07-2021 08:56:07.286 [java] [DEBUG] logs_directory: logs
+27-07-2021 08:56:07.286 [java] [DEBUG] enable_multithreading: false
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 08:56:07.286 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_java_home: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 08:56:07.286 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 08:56:07.286 [java] [DEBUG] ***** END *****
+27-07-2021 08:56:07.776 [Gauge] [DEBUG] Checking updates...
+27-07-2021 08:56:07.777 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.209 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.416 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.517 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.680 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:08.780 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:12.214 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 08:56:12.214 [java] [DEBUG] found java executable in java
+27-07-2021 08:56:12.216 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 08:56:12.216 [java] [DEBUG] stdout/stderr is logged to logs/9458-java.out
+27-07-2021 08:56:12.606 [java] [DEBUG] multithreading is set to false
+27-07-2021 08:56:12.993 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 08:56:13.409 [java] [DEBUG] gauge-java took 803milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 08:56:13.409 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 803
+27-07-2021 08:56:13.409 [java] [DEBUG] starting gRPC server...
+27-07-2021 08:56:13.602 [java] [DEBUG] started gRPC server on port 64969
+27-07-2021 08:56:13.602 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64969
+27-07-2021 08:56:13.716 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64969
+27-07-2021 08:56:13.716 [Gauge] [DEBUG] Validation started.
+27-07-2021 08:56:16.885 [java] [DEBUG] Scanning packages for steps
+27-07-2021 08:56:16.897 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 08:56:16.897 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 08:56:16.897 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 08:56:16.897 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 08:56:16.897 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 08:56:16.898 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 08:56:16.898 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 08:56:16.902 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 08:56:16.902 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 08:56:16.902 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 08:56:16.902 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 08:56:19.702 [Gauge] [DEBUG] Validation completed.
+27-07-2021 08:56:19.703 [Gauge] [DEBUG] Run started
+27-07-2021 08:56:19.704 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 08:56:19.753 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64974
+27-07-2021 08:56:19.757 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64974
+27-07-2021 08:56:19.757 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 08:56:19.818 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 08:56:20.892 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 08:56:20.928 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 08:56:20.928 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 08:56:20.928 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 08:56:20.931 [java] [DEBUG] Killing Java runner...
+27-07-2021 08:56:20.933 [java] [DEBUG] Stopping execution pool...
+27-07-2021 08:56:20.934 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 08:56:20.959 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 08:56:21.469 [Gauge] [DEBUG] Runner with PID:9458 has exited
+27-07-2021 08:56:21.470 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:56:21.470 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:56:21.470 [Gauge] [INFO] 
+Total time taken: 1.187s
+27-07-2021 08:56:37.460 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 08:56:37.461 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 08:56:37.461 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 08:56:37.462 [Gauge] [DEBUG] Parsing started.
+27-07-2021 08:56:37.462 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 08:56:37.464 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 08:56:37.464 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 08:56:37.465 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 08:56:37.465 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 08:56:37.489 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 08:56:37.489 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 08:56:37.489 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_project_root: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 08:56:37.489 [java] [DEBUG] overwrite_reports: true
+27-07-2021 08:56:37.489 [java] [DEBUG] logs_directory: logs
+27-07-2021 08:56:37.489 [java] [DEBUG] enable_multithreading: false
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 08:56:37.489 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_java_home: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 08:56:37.489 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 08:56:37.489 [java] [DEBUG] ***** END *****
+27-07-2021 08:56:38.075 [Gauge] [DEBUG] Checking updates...
+27-07-2021 08:56:38.076 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:38.528 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:38.639 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:38.755 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:38.865 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:38.976 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:39.088 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:56:41.280 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 08:56:41.280 [java] [DEBUG] found java executable in java
+27-07-2021 08:56:41.280 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 08:56:41.280 [java] [DEBUG] stdout/stderr is logged to logs/9502-java.out
+27-07-2021 08:56:41.640 [java] [DEBUG] multithreading is set to false
+27-07-2021 08:56:41.988 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 08:56:42.330 [java] [DEBUG] gauge-java took 689milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 08:56:42.330 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 689
+27-07-2021 08:56:42.330 [java] [DEBUG] starting gRPC server...
+27-07-2021 08:56:42.628 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64994
+27-07-2021 08:56:42.750 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64994
+27-07-2021 08:56:42.750 [Gauge] [DEBUG] Validation started.
+27-07-2021 08:56:46.515 [java] [DEBUG] Scanning packages for steps
+27-07-2021 08:56:46.532 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 08:56:46.532 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 08:56:46.534 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 08:56:46.534 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 08:56:46.536 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 08:56:46.536 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 08:56:46.536 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 08:56:46.539 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 08:56:46.539 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 08:56:46.539 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 08:56:46.540 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 08:56:49.225 [Gauge] [DEBUG] Validation completed.
+27-07-2021 08:56:49.226 [Gauge] [DEBUG] Run started
+27-07-2021 08:56:49.227 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 08:56:49.295 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65000
+27-07-2021 08:56:49.300 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65000
+27-07-2021 08:56:49.300 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 08:56:49.366 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 08:56:50.222 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 08:56:50.253 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 08:56:50.253 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 08:56:50.254 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 08:56:50.256 [java] [DEBUG] Killing Java runner...
+27-07-2021 08:56:50.257 [java] [DEBUG] Stopping execution pool...
+27-07-2021 08:56:50.257 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 08:56:50.268 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 08:56:50.777 [Gauge] [DEBUG] Runner with PID:9502 has exited
+27-07-2021 08:56:50.778 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:56:50.778 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:56:50.778 [Gauge] [INFO] 
+Total time taken: 987ms
+27-07-2021 08:57:11.250 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 08:57:11.251 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 08:57:11.252 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 08:57:11.252 [Gauge] [DEBUG] Parsing started.
+27-07-2021 08:57:11.252 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 08:57:11.254 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 08:57:11.254 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 08:57:11.255 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 08:57:11.255 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 08:57:11.270 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 08:57:11.270 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 08:57:11.270 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_project_root: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 08:57:11.270 [java] [DEBUG] overwrite_reports: true
+27-07-2021 08:57:11.270 [java] [DEBUG] logs_directory: logs
+27-07-2021 08:57:11.270 [java] [DEBUG] enable_multithreading: false
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 08:57:11.270 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_java_home: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 08:57:11.270 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 08:57:11.270 [java] [DEBUG] ***** END *****
+27-07-2021 08:57:12.044 [Gauge] [DEBUG] Checking updates...
+27-07-2021 08:57:12.045 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:12.522 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:12.643 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:12.763 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:12.894 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:13.014 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:13.133 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:14.886 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 08:57:14.886 [java] [DEBUG] found java executable in java
+27-07-2021 08:57:14.886 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 08:57:14.886 [java] [DEBUG] stdout/stderr is logged to logs/9554-java.out
+27-07-2021 08:57:15.233 [java] [DEBUG] multithreading is set to false
+27-07-2021 08:57:15.600 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 08:57:15.940 [java] [DEBUG] gauge-java took 706milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 08:57:15.940 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 706
+27-07-2021 08:57:15.940 [java] [DEBUG] starting gRPC server...
+27-07-2021 08:57:16.101 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65040
+27-07-2021 08:57:16.214 [Gauge] [DEBUG] Successfully made the connection with runner with port: 65040
+27-07-2021 08:57:16.214 [Gauge] [DEBUG] Validation started.
+27-07-2021 08:57:19.353 [java] [DEBUG] Scanning packages for steps
+27-07-2021 08:57:19.381 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 08:57:19.381 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 08:57:19.381 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 08:57:19.381 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 08:57:19.381 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 08:57:19.381 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 08:57:19.381 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 08:57:19.387 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 08:57:19.387 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 08:57:19.387 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 08:57:19.388 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 08:57:22.129 [Gauge] [DEBUG] Validation completed.
+27-07-2021 08:57:22.129 [Gauge] [DEBUG] Run started
+27-07-2021 08:57:22.131 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 08:57:22.183 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65045
+27-07-2021 08:57:22.186 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65045
+27-07-2021 08:57:22.186 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 08:57:22.230 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 08:57:23.035 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 08:57:23.050 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 08:57:23.050 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 08:57:23.050 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 08:57:23.053 [java] [DEBUG] Killing Java runner...
+27-07-2021 08:57:23.055 [java] [DEBUG] Stopping execution pool...
+27-07-2021 08:57:23.055 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 08:57:23.064 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 08:57:23.577 [Gauge] [DEBUG] Runner with PID:9554 has exited
+27-07-2021 08:57:23.577 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:57:23.577 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+27-07-2021 08:57:23.577 [Gauge] [INFO] 
+Total time taken: 905ms
+27-07-2021 08:57:49.535 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 08:57:49.536 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 08:57:49.537 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 08:57:49.537 [Gauge] [DEBUG] Parsing started.
+27-07-2021 08:57:49.537 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 08:57:49.539 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 08:57:49.539 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 08:57:49.540 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 08:57:49.540 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 08:57:49.565 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 08:57:49.565 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 08:57:49.565 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_project_root: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 08:57:49.566 [java] [DEBUG] overwrite_reports: true
+27-07-2021 08:57:49.566 [java] [DEBUG] logs_directory: logs
+27-07-2021 08:57:49.566 [java] [DEBUG] enable_multithreading: false
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 08:57:49.566 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_java_home: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 08:57:49.566 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 08:57:49.566 [java] [DEBUG] ***** END *****
+27-07-2021 08:57:50.510 [Gauge] [DEBUG] Checking updates...
+27-07-2021 08:57:50.512 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:50.984 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:51.321 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:51.441 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:51.562 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:51.682 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:52.141 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 08:57:54.983 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 08:57:54.983 [java] [DEBUG] found java executable in java
+27-07-2021 08:57:54.983 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 08:57:54.983 [java] [DEBUG] stdout/stderr is logged to logs/9594-java.out
+27-07-2021 08:57:55.428 [java] [DEBUG] multithreading is set to false
+27-07-2021 08:57:56.066 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 08:57:56.960 [java] [DEBUG] gauge-java took 1534milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 08:57:56.961 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1534
+27-07-2021 08:57:56.961 [java] [DEBUG] starting gRPC server...
+27-07-2021 08:57:57.209 [java] [DEBUG] started gRPC server on port 65059
+27-07-2021 08:57:57.210 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65059
+27-07-2021 08:57:57.399 [Gauge] [DEBUG] Successfully made the connection with runner with port: 65059
+27-07-2021 08:57:57.399 [Gauge] [DEBUG] Validation started.
+27-07-2021 08:58:01.035 [java] [DEBUG] Scanning packages for steps
+27-07-2021 08:58:01.048 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 08:58:01.048 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 08:58:01.048 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 08:58:01.048 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 08:58:01.049 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 08:58:01.049 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 08:58:01.049 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 08:58:01.053 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 08:58:01.054 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 08:58:01.054 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 08:58:01.054 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 08:58:03.654 [Gauge] [DEBUG] Validation completed.
+27-07-2021 08:58:03.654 [Gauge] [DEBUG] Run started
+27-07-2021 08:58:03.658 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 08:58:03.759 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65066
+27-07-2021 08:58:03.763 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65066
+27-07-2021 08:58:03.763 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 08:58:03.815 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 08:58:04.150 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 24672
+27-07-2021 08:58:04.150 [java] [ERROR] Only local connections are allowed.
+27-07-2021 08:58:04.150 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 08:58:04.152 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 08:58:07.457 [java] [ERROR] Jul 27, 2021 8:58:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 08:58:07.486 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 08:58:10.516 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 08:58:10.524 [java] [INFO] ----------------
+27-07-2021 08:58:10.524 [java] [INFO] |Page is opened|
+27-07-2021 08:58:10.524 [java] [INFO] ----------------
+27-07-2021 08:58:10.550 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 08:58:10.569 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 08:58:10.570 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 08:58:10.570 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 08:58:10.574 [java] [DEBUG] Killing Java runner...
+27-07-2021 08:58:10.574 [java] [DEBUG] Stopping execution pool...
+27-07-2021 08:58:10.574 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 08:58:10.583 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 08:58:10.992 [Gauge] [DEBUG] Runner with PID:9594 has exited
+27-07-2021 08:58:10.993 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 08:58:10.993 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 08:58:10.993 [Gauge] [INFO] 
+Total time taken: 6.894s
+27-07-2021 09:06:22.002 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 09:06:22.003 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 09:06:22.004 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 09:06:22.004 [Gauge] [DEBUG] Parsing started.
+27-07-2021 09:06:22.004 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 09:06:22.007 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 09:06:22.007 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 09:06:22.007 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 09:06:22.007 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 09:06:22.028 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 09:06:22.028 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 09:06:22.028 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_project_root: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 09:06:22.028 [java] [DEBUG] overwrite_reports: true
+27-07-2021 09:06:22.028 [java] [DEBUG] logs_directory: logs
+27-07-2021 09:06:22.028 [java] [DEBUG] enable_multithreading: false
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 09:06:22.028 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_java_home: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 09:06:22.028 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 09:06:22.028 [java] [DEBUG] ***** END *****
+27-07-2021 09:06:22.616 [Gauge] [DEBUG] Checking updates...
+27-07-2021 09:06:22.618 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.067 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.179 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.308 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.417 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.527 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:23.636 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:25.868 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 09:06:25.868 [java] [DEBUG] found java executable in java
+27-07-2021 09:06:25.868 [java] [INFO] 
+Runner Ready for Debugging
+27-07-2021 09:06:25.868 [java] [DEBUG] running - java [-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=65438,timeout=25000 -Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 09:06:25.868 [java] [DEBUG] stdout/stderr is logged to logs/9825-java.out
+27-07-2021 09:06:26.146 [java] [INFO] Listening for transport dt_socket at address: 65438
+27-07-2021 09:06:27.463 [java] [DEBUG] multithreading is set to false
+27-07-2021 09:06:29.876 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 09:06:30.826 [java] [DEBUG] gauge-java took 3360milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 09:06:30.826 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 3360
+27-07-2021 09:06:30.826 [java] [DEBUG] starting gRPC server...
+27-07-2021 09:06:31.429 [java] [DEBUG] started gRPC server on port 65450
+27-07-2021 09:06:31.429 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65450
+27-07-2021 09:06:32.076 [Gauge] [DEBUG] Successfully made the connection with runner with port: 65450
+27-07-2021 09:06:32.077 [Gauge] [DEBUG] Validation started.
+27-07-2021 09:06:37.134 [java] [DEBUG] Scanning packages for steps
+27-07-2021 09:06:37.159 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 09:06:37.159 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 09:06:37.159 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 09:06:37.160 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 09:06:37.161 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 09:06:37.161 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 09:06:37.161 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 09:06:37.166 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 09:06:37.166 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 09:06:37.167 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 09:06:37.167 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 09:06:40.670 [Gauge] [DEBUG] Validation completed.
+27-07-2021 09:06:40.672 [Gauge] [DEBUG] Run started
+27-07-2021 09:06:40.678 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 09:06:40.738 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65455
+27-07-2021 09:06:40.743 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65455
+27-07-2021 09:06:40.743 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 09:06:40.802 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 09:06:41.238 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 21510
+27-07-2021 09:06:41.238 [java] [ERROR] Only local connections are allowed.
+27-07-2021 09:06:41.238 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 09:06:41.243 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 09:06:45.107 [java] [ERROR] Jul 27, 2021 9:06:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 09:06:45.108 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 09:06:50.038 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 09:06:50.080 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 09:06:50.107 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 09:06:50.107 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 09:06:50.107 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 09:06:50.113 [java] [DEBUG] Killing Java runner...
+27-07-2021 09:06:50.113 [java] [DEBUG] Stopping execution pool...
+27-07-2021 09:06:50.113 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 09:06:50.131 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 09:06:50.551 [Gauge] [DEBUG] Runner with PID:9825 has exited
+27-07-2021 09:06:50.551 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:06:50.551 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:06:50.551 [Gauge] [INFO] 
+Total time taken: 9.405s
+27-07-2021 09:06:56.475 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 09:06:56.476 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 09:06:56.477 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 09:06:56.478 [Gauge] [DEBUG] Parsing started.
+27-07-2021 09:06:56.478 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 09:06:56.480 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 09:06:56.480 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 09:06:56.480 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 09:06:56.480 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 09:06:56.502 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 09:06:56.502 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 09:06:56.502 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_project_root: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 09:06:56.503 [java] [DEBUG] overwrite_reports: true
+27-07-2021 09:06:56.503 [java] [DEBUG] logs_directory: logs
+27-07-2021 09:06:56.503 [java] [DEBUG] enable_multithreading: false
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 09:06:56.503 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_java_home: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 09:06:56.503 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 09:06:56.503 [java] [DEBUG] ***** END *****
+27-07-2021 09:06:57.061 [Gauge] [DEBUG] Checking updates...
+27-07-2021 09:06:57.063 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:57.565 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:57.698 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:57.835 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:57.986 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:58.117 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:06:58.249 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:01.300 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 09:07:01.300 [java] [DEBUG] found java executable in java
+27-07-2021 09:07:01.300 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 09:07:01.300 [java] [DEBUG] stdout/stderr is logged to logs/9905-java.out
+27-07-2021 09:07:01.497 [java] [DEBUG] multithreading is set to false
+27-07-2021 09:07:01.794 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 09:07:02.090 [java] [DEBUG] gauge-java took 593milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 09:07:02.091 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 593
+27-07-2021 09:07:02.091 [java] [DEBUG] starting gRPC server...
+27-07-2021 09:07:02.250 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65511
+27-07-2021 09:07:02.374 [Gauge] [DEBUG] Successfully made the connection with runner with port: 65511
+27-07-2021 09:07:02.375 [Gauge] [DEBUG] Validation started.
+27-07-2021 09:07:05.305 [java] [DEBUG] Scanning packages for steps
+27-07-2021 09:07:05.316 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 09:07:05.316 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 09:07:05.316 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 09:07:05.316 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 09:07:05.318 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 09:07:05.318 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 09:07:05.318 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 09:07:05.321 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 09:07:05.321 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 09:07:05.321 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 09:07:05.321 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 09:07:07.827 [Gauge] [DEBUG] Validation completed.
+27-07-2021 09:07:07.829 [Gauge] [DEBUG] Run started
+27-07-2021 09:07:07.830 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 09:07:07.889 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65516
+27-07-2021 09:07:07.891 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65516
+27-07-2021 09:07:07.891 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 09:07:07.934 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 09:07:08.208 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 29673
+27-07-2021 09:07:08.208 [java] [ERROR] Only local connections are allowed.
+27-07-2021 09:07:08.208 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 09:07:08.211 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 09:07:11.129 [java] [ERROR] Jul 27, 2021 9:07:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 09:07:11.202 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 09:07:14.508 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 09:07:14.544 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 09:07:14.605 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 09:07:14.605 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 09:07:14.605 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 09:07:14.632 [java] [DEBUG] Killing Java runner...
+27-07-2021 09:07:14.635 [java] [DEBUG] Stopping execution pool...
+27-07-2021 09:07:14.636 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 09:07:14.653 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 09:07:15.059 [Gauge] [DEBUG] Runner with PID:9905 has exited
+27-07-2021 09:07:15.059 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:07:15.059 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:07:15.059 [Gauge] [INFO] 
+Total time taken: 6.713s
+27-07-2021 09:07:50.075 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 09:07:50.077 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 09:07:50.078 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 09:07:50.079 [Gauge] [DEBUG] Parsing started.
+27-07-2021 09:07:50.079 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 09:07:50.082 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 09:07:50.082 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 09:07:50.083 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 09:07:50.083 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 09:07:50.109 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 09:07:50.109 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 09:07:50.109 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_project_root: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 09:07:50.109 [java] [DEBUG] overwrite_reports: true
+27-07-2021 09:07:50.109 [java] [DEBUG] logs_directory: logs
+27-07-2021 09:07:50.109 [java] [DEBUG] enable_multithreading: false
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 09:07:50.109 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_java_home: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 09:07:50.109 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 09:07:50.109 [java] [DEBUG] ***** END *****
+27-07-2021 09:07:50.906 [Gauge] [DEBUG] Checking updates...
+27-07-2021 09:07:50.910 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.374 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.485 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.599 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.710 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.822 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:51.934 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:07:54.097 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 09:07:54.097 [java] [DEBUG] found java executable in java
+27-07-2021 09:07:54.097 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 09:07:54.097 [java] [DEBUG] stdout/stderr is logged to logs/9971-java.out
+27-07-2021 09:07:54.421 [java] [DEBUG] multithreading is set to false
+27-07-2021 09:07:54.853 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 09:07:55.159 [java] [DEBUG] gauge-java took 733milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 09:07:55.161 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 733
+27-07-2021 09:07:55.161 [java] [DEBUG] starting gRPC server...
+27-07-2021 09:07:55.611 [java] [DEBUG] started gRPC server on port 49184
+27-07-2021 09:07:55.612 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49184
+27-07-2021 09:07:55.849 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49184
+27-07-2021 09:07:55.849 [Gauge] [DEBUG] Validation started.
+27-07-2021 09:07:59.881 [java] [DEBUG] Scanning packages for steps
+27-07-2021 09:07:59.900 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 09:07:59.900 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 09:07:59.900 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 09:07:59.900 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 09:07:59.900 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 09:07:59.900 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 09:07:59.900 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 09:07:59.902 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 09:07:59.902 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 09:07:59.902 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 09:07:59.902 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 09:08:02.436 [Gauge] [DEBUG] Validation completed.
+27-07-2021 09:08:02.436 [Gauge] [DEBUG] Run started
+27-07-2021 09:08:02.438 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 09:08:02.491 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49193
+27-07-2021 09:08:02.493 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49193
+27-07-2021 09:08:02.493 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 09:08:02.536 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 09:08:02.864 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 14841
+27-07-2021 09:08:02.864 [java] [ERROR] Only local connections are allowed.
+27-07-2021 09:08:02.864 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 09:08:02.864 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 09:08:05.664 [java] [ERROR] Jul 27, 2021 9:08:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 09:08:05.664 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 09:08:08.602 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 09:08:08.691 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 09:08:08.718 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 09:08:08.719 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 09:08:08.719 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 09:08:08.722 [java] [DEBUG] Killing Java runner...
+27-07-2021 09:08:08.723 [java] [DEBUG] Stopping execution pool...
+27-07-2021 09:08:08.725 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 09:08:08.758 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 09:08:09.173 [Gauge] [DEBUG] Runner with PID:9971 has exited
+27-07-2021 09:08:09.173 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:08:09.173 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:08:09.173 [Gauge] [INFO] 
+Total time taken: 6.253s
+27-07-2021 09:08:33.912 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 09:08:33.913 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 09:08:33.914 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 09:08:33.914 [Gauge] [DEBUG] Parsing started.
+27-07-2021 09:08:33.914 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 09:08:33.916 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 09:08:33.917 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 09:08:33.917 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 09:08:33.917 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 09:08:33.944 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 09:08:33.944 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 09:08:33.944 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 09:08:33.944 [java] [DEBUG] gauge_project_root: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 09:08:33.945 [java] [DEBUG] overwrite_reports: true
+27-07-2021 09:08:33.945 [java] [DEBUG] logs_directory: logs
+27-07-2021 09:08:33.945 [java] [DEBUG] enable_multithreading: false
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 09:08:33.945 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_java_home: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 09:08:33.945 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 09:08:33.945 [java] [DEBUG] ***** END *****
+27-07-2021 09:08:34.408 [Gauge] [DEBUG] Checking updates...
+27-07-2021 09:08:34.410 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:34.858 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:34.969 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:35.082 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:35.190 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:35.303 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:35.411 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:08:38.044 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+27-07-2021 09:08:38.044 [java] [DEBUG] found java executable in java
+27-07-2021 09:08:38.044 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 09:08:38.044 [java] [DEBUG] stdout/stderr is logged to logs/10044-java.out
+27-07-2021 09:08:38.405 [java] [DEBUG] multithreading is set to false
+27-07-2021 09:08:38.786 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 09:08:39.231 [java] [DEBUG] gauge-java took 826milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 09:08:39.231 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 826
+27-07-2021 09:08:39.231 [java] [DEBUG] starting gRPC server...
+27-07-2021 09:08:39.576 [java] [DEBUG] started gRPC server on port 49263
+27-07-2021 09:08:39.576 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49263
+27-07-2021 09:08:39.716 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49263
+27-07-2021 09:08:39.716 [Gauge] [DEBUG] Validation started.
+27-07-2021 09:08:42.380 [java] [DEBUG] Scanning packages for steps
+27-07-2021 09:08:42.391 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 09:08:42.391 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 09:08:42.391 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 09:08:42.391 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 09:08:42.392 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 09:08:42.392 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 09:08:42.392 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 09:08:42.396 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 09:08:42.396 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 09:08:42.396 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 09:08:42.396 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 09:08:44.811 [Gauge] [DEBUG] Validation completed.
+27-07-2021 09:08:44.811 [Gauge] [DEBUG] Run started
+27-07-2021 09:08:44.812 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 09:08:44.858 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49268
+27-07-2021 09:08:44.862 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49268
+27-07-2021 09:08:44.862 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 09:08:44.913 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 09:08:45.238 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 1089
+27-07-2021 09:08:45.239 [java] [ERROR] Only local connections are allowed.
+27-07-2021 09:08:45.239 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 09:08:45.239 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 09:08:48.120 [java] [ERROR] Jul 27, 2021 9:08:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 09:08:48.120 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 09:08:51.266 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 09:08:51.275 [java] [INFO] n11.com - Hayat Sana Gelir
+27-07-2021 09:08:51.301 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 09:08:51.328 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 09:08:51.328 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 09:08:51.328 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 09:08:51.335 [java] [DEBUG] Killing Java runner...
+27-07-2021 09:08:51.338 [java] [DEBUG] Stopping execution pool...
+27-07-2021 09:08:51.339 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 09:08:51.353 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 09:08:51.765 [Gauge] [DEBUG] Runner with PID:10044 has exited
+27-07-2021 09:08:51.766 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:08:51.766 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:08:51.766 [Gauge] [INFO] 
+Total time taken: 6.487s
+27-07-2021 09:25:35.253 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/kadirince/Desktop/n11/.gauge/screenshots
+27-07-2021 09:25:35.254 [Gauge] [DEBUG] Plugin java is already installed.
+27-07-2021 09:25:35.255 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-07-2021 09:25:35.256 [Gauge] [DEBUG] Parsing started.
+27-07-2021 09:25:35.256 [Gauge] [DEBUG] Started concepts parsing.
+27-07-2021 09:25:35.260 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-07-2021 09:25:35.260 [Gauge] [DEBUG] Started specifications parsing.
+27-07-2021 09:25:35.260 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-07-2021 09:25:35.260 [Gauge] [DEBUG] Parsing completed.
+27-07-2021 09:25:35.289 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-07-2021 09:25:35.289 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+27-07-2021 09:25:35.289 [java] [DEBUG] JAVA_HOME: 
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_project_root: 
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_parallel_streams_count: 
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_reports_dir: reports
+27-07-2021 09:25:35.289 [java] [DEBUG] overwrite_reports: true
+27-07-2021 09:25:35.289 [java] [DEBUG] logs_directory: logs
+27-07-2021 09:25:35.289 [java] [DEBUG] enable_multithreading: false
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_specs_dir: specs
+27-07-2021 09:25:35.289 [java] [DEBUG] csv_delimiter: ,
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_java_home: 
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_custom_build_path: 
+27-07-2021 09:25:35.289 [java] [DEBUG] gauge_additional_libs: libs/*
+27-07-2021 09:25:35.290 [java] [DEBUG] gauge_jvm_args: 
+27-07-2021 09:25:35.290 [java] [DEBUG] gauge_custom_compile_dir: 
+27-07-2021 09:25:35.290 [java] [DEBUG] gauge_clear_state_level: scenario
+27-07-2021 09:25:35.290 [java] [DEBUG] ***** END *****
+27-07-2021 09:25:36.258 [Gauge] [DEBUG] Checking updates...
+27-07-2021 09:25:36.260 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.273 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.397 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.526 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.648 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.771 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:37.895 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,json-report,screenshot,spectacle,xml-report&o=darwin&a=amd64
+27-07-2021 09:25:39.913 [java] [DEBUG] classpath set to /Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/charsets.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/dnsns.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jaccess.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/localedata.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/nashorn.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunec.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/ext/zipfs.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jce.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfr.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jfxswt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/jsse.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/management-agent.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/resources.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/jre/lib/rt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/ant-javafx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/dt.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/javafx-mx.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/jconsole.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/packager.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/sa-jdi.jar:/Users/kadirince/Library/Java/JavaVirtualMachines/corretto-1.8.0_302/Contents/Home/lib/tools.jar:/Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/kadirince/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+27-07-2021 09:25:39.913 [java] [DEBUG] found java executable in java
+27-07-2021 09:25:39.913 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-07-2021 09:25:39.914 [java] [DEBUG] stdout/stderr is logged to logs/10473-java.out
+27-07-2021 09:25:40.220 [java] [DEBUG] multithreading is set to false
+27-07-2021 09:25:40.621 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-07-2021 09:25:41.184 [java] [DEBUG] gauge-java took 963milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-07-2021 09:25:41.184 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 963
+27-07-2021 09:25:41.184 [java] [DEBUG] starting gRPC server...
+27-07-2021 09:25:41.644 [java] [DEBUG] started gRPC server on port 49740
+27-07-2021 09:25:41.644 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49740
+27-07-2021 09:25:41.782 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49740
+27-07-2021 09:25:41.782 [Gauge] [DEBUG] Validation started.
+27-07-2021 09:25:44.339 [java] [DEBUG] Scanning packages for steps
+27-07-2021 09:25:44.348 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'
+27-07-2021 09:25:44.348 [java] [DEBUG] Found Navigate to {} in current project scope.
+27-07-2021 09:25:44.348 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'
+27-07-2021 09:25:44.348 [java] [DEBUG] Found Check it is open in current project scope.
+27-07-2021 09:25:44.348 [java] [DEBUG] Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'
+27-07-2021 09:25:44.349 [java] [DEBUG] Found Click to the login button in current project scope.
+27-07-2021 09:25:44.349 [java] [DEBUG] Scanning packages for hooks
+27-07-2021 09:25:44.352 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-07-2021 09:25:44.352 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+27-07-2021 09:25:44.352 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+27-07-2021 09:25:44.352 [java] [DEBUG] 	Check it is open : public void isOpen()
+27-07-2021 09:25:46.781 [Gauge] [DEBUG] Validation completed.
+27-07-2021 09:25:46.782 [Gauge] [DEBUG] Run started
+27-07-2021 09:25:46.783 [Gauge] [DEBUG] Starting Html Report plugin
+27-07-2021 09:25:46.861 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49745
+27-07-2021 09:25:46.869 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49745
+27-07-2021 09:25:46.869 [Gauge] [DEBUG] Initialising suite data store.
+27-07-2021 09:25:46.926 [java] [DEBUG] Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo
+27-07-2021 09:25:47.295 [java] [ERROR] Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 27428
+27-07-2021 09:25:47.295 [java] [ERROR] Only local connections are allowed.
+27-07-2021 09:25:47.295 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-07-2021 09:25:47.297 [java] [ERROR] ChromeDriver was started successfully.
+27-07-2021 09:25:50.639 [java] [ERROR] Jul 27, 2021 9:25:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-07-2021 09:25:50.675 [java] [ERROR] INFO: Detected dialect: W3C
+27-07-2021 09:25:53.439 [java] [DEBUG] Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen
+27-07-2021 09:25:53.445 [java] [INFO] ----------------
+27-07-2021 09:25:53.445 [java] [INFO] |Page is opened|
+27-07-2021 09:25:53.445 [java] [INFO] ----------------
+27-07-2021 09:25:53.459 [java] [DEBUG] Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton
+27-07-2021 09:25:54.141 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-07-2021 09:25:54.170 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-07-2021 09:25:54.170 [html-report] [INFO] Successfully generated html-report to => /Users/kadirince/Desktop/n11/reports/html-report/index.html
+27-07-2021 09:25:54.170 [html-report] [DEBUG] Done generating HTML report using theme from /Users/kadirince/.gauge/plugins/html-report/4.1.0/themes/default
+27-07-2021 09:25:54.177 [java] [DEBUG] Killing Java runner...
+27-07-2021 09:25:54.178 [java] [DEBUG] Stopping execution pool...
+27-07-2021 09:25:54.178 [java] [DEBUG] Shutting down grpc server...
+27-07-2021 09:25:54.187 [java] [DEBUG] Runner killed gracefully.
+27-07-2021 09:25:54.597 [Gauge] [DEBUG] Runner with PID:10473 has exited
+27-07-2021 09:25:54.597 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:25:54.597 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-07-2021 09:25:54.597 [Gauge] [INFO] 
+Total time taken: 7.356s
