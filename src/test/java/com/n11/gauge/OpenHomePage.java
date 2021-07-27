@@ -16,6 +16,7 @@ public class OpenHomePage {
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
         driver = new ChromeDriver();
         driver.get(url);
+        driver.manage().window().maximize();
     }
 
     @Step("Check it is open")
