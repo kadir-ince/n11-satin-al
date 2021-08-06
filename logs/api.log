@@ -60,14 +60,15 @@
 27-07-2021 11:19:16.658 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/search.spec
 27-07-2021 11:19:58.137 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/search.spec
 27-07-2021 11:55:10.784 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
-2 allStepsRequest:{}
-27-07-2021 08:31:54.913 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{}
-27-07-2021 08:31:54.913 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
-27-07-2021 08:31:54.913 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
-27-07-2021 08:31:55.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navig"}
-27-07-2021 08:31:55.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navig" parameterizedStepValue:"Navig"}}
-27-07-2021 08:31:55.309 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
-27-07-2021 08:31:55.309 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{}
+27-07-2021 12:43:57.768 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:01:59.776 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:02:15.483 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:02:17.445 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:03:24.068 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:05:24.051 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/homePage.spec
+27-07-2021 13:13:27.483 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:15:08.376 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+esponse: messageType:GetAllStepResponse messageId:2 allStepsResponse:{}
 27-07-2021 08:31:55.309 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
 27-07-2021 08:31:55.309 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
 27-07-2021 08:31:55.718 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
@@ -840,3 +841,655 @@
 27-07-2021 12:17:31.622 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
 27-07-2021 12:17:32.584 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input \"selenium@mailinator.com\""}
 27-07-2021 12:17:32.584 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <selenium@mailinator.com>" parameters:"selenium@mailinator.com"}}
+27-07-2021 12:59:59.612 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:01:53.769 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input /\"selenium@mailinator.com\""}
+27-07-2021 13:01:53.771 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input /{}" parameterizedStepValue:"Fill email input /<selenium@mailinator.com>" parameters:"selenium@mailinator.com"}}
+27-07-2021 13:01:53.899 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input //\"selenium@mailinator.com\""}
+27-07-2021 13:01:53.899 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input //{}" parameterizedStepValue:"Fill email input //<selenium@mailinator.com>" parameters:"selenium@mailinator.com"}}
+27-07-2021 13:01:59.776 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:01:59.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input"}
+27-07-2021 13:01:59.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input" parameterizedStepValue:"Fill email input"}}
+27-07-2021 13:02:08.630 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input "}
+27-07-2021 13:02:08.630 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input" parameterizedStepValue:"Fill email input"}}
+27-07-2021 13:02:11.850 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input"}
+27-07-2021 13:02:11.868 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input" parameterizedStepValue:"Fill password input"}}
+27-07-2021 13:02:15.483 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:02:17.445 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:03:24.068 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:03:45.053 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <https://g.com>"}
+27-07-2021 13:03:45.054 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://g.com>" parameters:"https://g.com"}}
+27-07-2021 13:03:46.671 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <https://google.com>"}
+27-07-2021 13:03:46.671 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://google.com>" parameters:"https://google.com"}}
+27-07-2021 13:04:43.884 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <u>"}
+27-07-2021 13:04:43.886 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <u>" parameters:"u"}}
+27-07-2021 13:04:46.451 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <url>"}
+27-07-2021 13:04:46.451 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <url>" parameters:"url"}}
+27-07-2021 13:04:56.503 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <siteURL>"}
+27-07-2021 13:04:56.510 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <siteURL>" parameters:"siteURL"}}
+27-07-2021 13:04:56.520 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <siteURL>"}
+27-07-2021 13:04:56.521 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <siteURL>" parameters:"siteURL"}}
+27-07-2021 13:05:01.118 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"//*[@id=\"gb\"]/div/div[2]/a\""}
+27-07-2021 13:05:01.119 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}gb{}" parameterizedStepValue:"Navigate to <//*[@id=>gb<]/div/div[2]/a>" parameters:"//*[@id=" parameters:"]/div/div[2]/a"}}
+27-07-2021 13:05:04.034 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://.com\""}
+27-07-2021 13:05:04.034 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://.com>" parameters:"https://.com"}}
+27-07-2021 13:05:04.236 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://g.com\""}
+27-07-2021 13:05:04.237 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://g.com>" parameters:"https://g.com"}}
+27-07-2021 13:05:04.307 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://go.com\""}
+27-07-2021 13:05:04.308 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://go.com>" parameters:"https://go.com"}}
+27-07-2021 13:05:04.581 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://goog.com\""}
+27-07-2021 13:05:04.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://goog.com>" parameters:"https://goog.com"}}
+27-07-2021 13:05:04.618 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://googl.com\""}
+27-07-2021 13:05:04.618 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://googl.com>" parameters:"https://googl.com"}}
+27-07-2021 13:05:04.824 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://google.com\""}
+27-07-2021 13:05:04.826 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://google.com>" parameters:"https://google.com"}}
+27-07-2021 13:05:24.051 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/homePage.spec
+27-07-2021 13:07:30.231 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input \"go2github@gmail.com\""}
+27-07-2021 13:07:30.235 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <go2github@gmail.com>" parameters:"go2github@gmail.com"}}
+27-07-2021 13:07:31.224 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:10:04.566 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://h.com\""}
+27-07-2021 13:10:04.567 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://h.com>" parameters:"https://h.com"}}
+27-07-2021 13:10:04.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://he.com\""}
+27-07-2021 13:10:04.645 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://he.com>" parameters:"https://he.com"}}
+27-07-2021 13:10:04.734 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hep.com\""}
+27-07-2021 13:10:04.734 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hep.com>" parameters:"https://hep.com"}}
+27-07-2021 13:10:04.928 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://heps.com\""}
+27-07-2021 13:10:04.929 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://heps.com>" parameters:"https://heps.com"}}
+27-07-2021 13:10:05.207 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsi.com\""}
+27-07-2021 13:10:05.209 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsi.com>" parameters:"https://hepsi.com"}}
+27-07-2021 13:10:05.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsib.com\""}
+27-07-2021 13:10:05.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsib.com>" parameters:"https://hepsib.com"}}
+27-07-2021 13:10:05.929 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsibr.com\""}
+27-07-2021 13:10:05.929 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsibr.com>" parameters:"https://hepsibr.com"}}
+27-07-2021 13:10:06.516 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsibu.com\""}
+27-07-2021 13:10:06.517 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsibu.com>" parameters:"https://hepsibu.com"}}
+27-07-2021 13:10:07.016 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsibur.com\""}
+27-07-2021 13:10:07.016 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsibur.com>" parameters:"https://hepsibur.com"}}
+27-07-2021 13:10:07.203 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsibura.com\""}
+27-07-2021 13:10:07.205 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsibura.com>" parameters:"https://hepsibura.com"}}
+27-07-2021 13:10:07.284 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsiburad.com\""}
+27-07-2021 13:10:07.284 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsiburad.com>" parameters:"https://hepsiburad.com"}}
+27-07-2021 13:10:07.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://hepsiburada.com\""}
+27-07-2021 13:10:07.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://hepsiburada.com>" parameters:"https://hepsiburada.com"}}
+27-07-2021 13:11:46.170 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://a.com\""}
+27-07-2021 13:11:46.181 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://a.com>" parameters:"https://a.com"}}
+27-07-2021 13:11:46.459 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://ama.com\""}
+27-07-2021 13:11:46.460 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://ama.com>" parameters:"https://ama.com"}}
+27-07-2021 13:11:46.504 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amaz.com\""}
+27-07-2021 13:11:46.505 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amaz.com>" parameters:"https://amaz.com"}}
+27-07-2021 13:11:46.703 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com\""}
+27-07-2021 13:11:46.708 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com>" parameters:"https://amazon.com"}}
+27-07-2021 13:11:47.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com.\""}
+27-07-2021 13:11:47.859 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com.>" parameters:"https://amazon.com."}}
+27-07-2021 13:11:48.083 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com.t\""}
+27-07-2021 13:11:48.083 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com.t>" parameters:"https://amazon.com.t"}}
+27-07-2021 13:11:48.259 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com.tr\""}
+27-07-2021 13:11:48.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com.tr>" parameters:"https://amazon.com.tr"}}
+27-07-2021 13:11:54.784 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/homePage.spec
+27-07-2021 13:13:25.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input \"kadirincedev@gmail.com\""}
+27-07-2021 13:13:25.535 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <kadirincedev@gmail.com>" parameters:"kadirincedev@gmail.com"}}
+27-07-2021 13:13:27.483 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:15:03.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"D\""}
+27-07-2021 13:15:03.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <D>" parameters:"D"}}
+27-07-2021 13:15:03.696 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"De\""}
+27-07-2021 13:15:03.696 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <De>" parameters:"De"}}
+27-07-2021 13:15:03.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Dev\""}
+27-07-2021 13:15:03.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Dev>" parameters:"Dev"}}
+27-07-2021 13:15:03.891 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Deve\""}
+27-07-2021 13:15:03.897 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Deve>" parameters:"Deve"}}
+27-07-2021 13:15:04.037 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Devel\""}
+27-07-2021 13:15:04.037 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Devel>" parameters:"Devel"}}
+27-07-2021 13:15:04.194 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Develo\""}
+27-07-2021 13:15:04.194 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Develo>" parameters:"Develo"}}
+27-07-2021 13:15:04.328 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Develop\""}
+27-07-2021 13:15:04.328 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Develop>" parameters:"Develop"}}
+27-07-2021 13:15:04.512 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Develope\""}
+27-07-2021 13:15:04.512 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Develope>" parameters:"Develope"}}
+27-07-2021 13:15:04.890 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer\""}
+27-07-2021 13:15:04.890 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer>" parameters:"Developer"}}
+27-07-2021 13:15:06.243 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@œ\""}
+27-07-2021 13:15:06.244 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@œ>" parameters:"Developer@œ"}}
+27-07-2021 13:15:06.780 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@\""}
+27-07-2021 13:15:06.781 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@>" parameters:"Developer@"}}
+27-07-2021 13:15:07.236 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@8\""}
+27-07-2021 13:15:07.237 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@8>" parameters:"Developer@8"}}
+27-07-2021 13:15:07.528 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@81\""}
+27-07-2021 13:15:07.530 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@81>" parameters:"Developer@81"}}
+27-07-2021 13:15:08.376 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:15:54.474 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"t\""}
+27-07-2021 13:15:54.474 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <t>" parameters:"t"}}
+27-07-2021 13:15:54.557 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"te\""}
+27-07-2021 13:15:54.557 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <te>" parameters:"te"}}
+27-07-2021 13:15:54.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"tes\""}
+27-07-2021 13:15:54.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <tes>" parameters:"tes"}}
+27-07-2021 13:15:55.012 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test\""}
+27-07-2021 13:15:55.012 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test>" parameters:"test"}}
+27-07-2021 13:15:55.170 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test1\""}
+27-07-2021 13:15:55.170 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test1>" parameters:"test1"}}
+27-07-2021 13:15:55.291 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test12\""}
+27-07-2021 13:15:55.291 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test12>" parameters:"test12"}}
+27-07-2021 13:15:55.447 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test123\""}
+27-07-2021 13:15:55.447 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test123>" parameters:"test123"}}
+27-07-2021 13:15:56.924 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+27-07-2021 13:24:53.683 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-07-2021 13:24:53.685 [Gauge] [INFO] Initializing specs cache with 3 specs
+27-07-2021 13:24:53.685 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/login.spec
+27-07-2021 13:24:53.686 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/homePage.spec
+27-07-2021 13:24:53.686 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/search.spec
+27-07-2021 13:24:53.686 [Gauge] [INFO] Initializing steps cache with 3 steps
+27-07-2021 13:24:53.686 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52731
+27-07-2021 13:24:53.687 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/amazon/specs
+27-07-2021 13:24:53.687 [Gauge] [DEBUG] Found 3 files
+28-07-2021 09:15:13.869 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+28-07-2021 09:15:13.872 [Gauge] [INFO] Initializing specs cache with 3 specs
+28-07-2021 09:15:13.872 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/homePage.spec
+28-07-2021 09:15:13.873 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/login.spec
+28-07-2021 09:15:13.873 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/amazon/specs/search.spec
+28-07-2021 09:15:13.873 [Gauge] [INFO] Initializing steps cache with 3 steps
+28-07-2021 09:15:13.873 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55704
+28-07-2021 09:15:13.874 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/amazon/specs
+28-07-2021 09:15:13.875 [Gauge] [DEBUG] Found 3 files
+28-07-2021 09:15:26.364 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com.tr\""}
+28-07-2021 09:15:26.365 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com.tr>" parameters:"https://amazon.com.tr"}}
+28-07-2021 09:15:26.383 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check it is open"}
+28-07-2021 09:15:26.384 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check it is open" parameterizedStepValue:"Check it is open"}}
+28-07-2021 09:15:43.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input \"kadirincedev@gmail.com\""}
+28-07-2021 09:15:43.040 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <kadirincedev@gmail.com>" parameters:"kadirincedev@gmail.com"}}
+28-07-2021 09:16:32.778 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/amazon/specs/search.spec
+28-07-2021 09:16:36.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"D\""}
+28-07-2021 09:16:36.900 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <D>" parameters:"D"}}
+28-07-2021 09:16:37.190 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"De\""}
+28-07-2021 09:16:37.190 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <De>" parameters:"De"}}
+28-07-2021 09:16:37.336 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Dev\""}
+28-07-2021 09:16:37.336 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Dev>" parameters:"Dev"}}
+28-07-2021 09:16:37.428 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Deve\""}
+28-07-2021 09:16:37.437 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Deve>" parameters:"Deve"}}
+28-07-2021 09:16:38.041 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Devel\""}
+28-07-2021 09:16:38.041 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Devel>" parameters:"Devel"}}
+28-07-2021 09:16:38.201 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Develo\""}
+28-07-2021 09:16:38.201 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Develo>" parameters:"Develo"}}
+28-07-2021 09:16:38.353 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Develop\""}
+28-07-2021 09:16:38.353 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Develop>" parameters:"Develop"}}
+28-07-2021 09:16:38.556 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer\""}
+28-07-2021 09:16:38.556 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer>" parameters:"Developer"}}
+28-07-2021 09:16:38.660 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@\""}
+28-07-2021 09:16:38.660 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@>" parameters:"Developer@"}}
+28-07-2021 09:16:39.017 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@8\""}
+28-07-2021 09:16:39.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@8>" parameters:"Developer@8"}}
+28-07-2021 09:16:39.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"Developer@81\""}
+28-07-2021 09:16:39.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <Developer@81>" parameters:"Developer@81"}}
+28-07-2021 09:16:39.854 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/amazon/specs/login.spec
+28-07-2021 09:17:11.479 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/amazon/specs/login.spec
+28-07-2021 09:25:10.679 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"t\""}
+28-07-2021 09:25:10.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <t>" parameters:"t"}}
+28-07-2021 09:25:10.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"te\""}
+28-07-2021 09:25:10.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <te>" parameters:"te"}}
+28-07-2021 09:25:10.963 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"tes\""}
+28-07-2021 09:25:10.963 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <tes>" parameters:"tes"}}
+28-07-2021 09:25:11.079 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test\""}
+28-07-2021 09:25:11.079 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test>" parameters:"test"}}
+28-07-2021 09:25:11.471 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test1\""}
+28-07-2021 09:25:11.472 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test1>" parameters:"test1"}}
+28-07-2021 09:25:11.565 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test12\""}
+28-07-2021 09:25:11.565 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test12>" parameters:"test12"}}
+28-07-2021 09:25:11.651 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test123\""}
+28-07-2021 09:25:11.651 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test123>" parameters:"test123"}}
+28-07-2021 09:25:12.544 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/amazon/specs/login.spec
+06-08-2021 14:24:27.658 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-08-2021 14:24:27.663 [Gauge] [INFO] Initializing specs cache with 2 specs
+06-08-2021 14:24:27.663 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 14:24:27.663 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 14:24:27.663 [Gauge] [INFO] Initializing steps cache with 2 steps
+06-08-2021 14:24:27.663 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55856
+06-08-2021 14:24:27.664 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11-satin-al/specs
+06-08-2021 14:24:27.664 [Gauge] [DEBUG] Found 2 files
+06-08-2021 14:24:48.051 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:{language:"java"}
+06-08-2021 14:24:48.055 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:{path:"/Users/kadirince/.gauge/plugins/java/0.7.15/libs"}
+06-08-2021 14:24:55.329 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-08-2021 14:24:55.329 [Gauge] [INFO] Initializing specs cache with 2 specs
+06-08-2021 14:24:55.330 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 14:24:55.330 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 14:24:55.330 [Gauge] [INFO] Initializing steps cache with 2 steps
+06-08-2021 14:24:55.330 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55884
+06-08-2021 14:24:55.330 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11-satin-al/specs
+06-08-2021 14:24:55.330 [Gauge] [DEBUG] Found 2 files
+06-08-2021 14:25:21.284 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://amazon.com.tr\""}
+06-08-2021 14:25:21.285 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://amazon.com.tr>" parameters:"https://amazon.com.tr"}}
+06-08-2021 14:25:21.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input <email>"}
+06-08-2021 14:25:21.302 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <email>" parameters:"email"}}
+06-08-2021 14:25:21.302 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input <password>"}
+06-08-2021 14:25:21.303 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <password>" parameters:"password"}}
+06-08-2021 14:25:21.303 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <siteURL>"}
+06-08-2021 14:25:21.303 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <siteURL>" parameters:"siteURL"}}
+06-08-2021 14:25:21.305 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Check it is open"}
+06-08-2021 14:25:21.305 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Check it is open" parameterizedStepValue:"Check it is open"}}
+06-08-2021 14:25:21.325 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click to the login button"}
+06-08-2021 14:25:21.326 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click to the login button" parameterizedStepValue:"Click to the login button"}}
+06-08-2021 14:26:12.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n\""}
+06-08-2021 14:26:12.361 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n>" parameters:"https://n"}}
+06-08-2021 14:26:12.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n1\""}
+06-08-2021 14:26:12.532 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n1>" parameters:"https://n1"}}
+06-08-2021 14:26:12.846 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n11\""}
+06-08-2021 14:26:12.846 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11>" parameters:"https://n11"}}
+06-08-2021 14:26:13.226 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n11.\""}
+06-08-2021 14:26:13.226 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.>" parameters:"https://n11."}}
+06-08-2021 14:26:13.813 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n11.c\""}
+06-08-2021 14:26:13.813 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.c>" parameters:"https://n11.c"}}
+06-08-2021 14:26:14.093 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 14:26:14.152 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to \"https://n11.com\""}
+06-08-2021 14:26:14.152 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 14:26:21.740 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill email input \"kadirincedev@gmail.com\""}
+06-08-2021 14:26:21.740 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill email input {}" parameterizedStepValue:"Fill email input <kadirincedev@gmail.com>" parameters:"kadirincedev@gmail.com"}}
+06-08-2021 14:26:21.741 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Fill password input \"test1234\""}
+06-08-2021 14:26:21.741 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Fill password input {}" parameterizedStepValue:"Fill password input <test1234>" parameters:"test1234"}}
+06-08-2021 14:27:04.313 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 15:14:11.606 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11-satin-al/specs/concepts
+06-08-2021 15:14:11.611 [Gauge] [DEBUG] Found 0 files
+06-08-2021 15:14:12.929 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:14:27.787 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:14:37.352 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 15:22:03.469 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <https://n11.com>"}
+06-08-2021 15:22:03.473 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:22:03.474 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Navigate to <https://n11.com>"}
+06-08-2021 15:22:03.475 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:22:33.084 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 15:26:33.320 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.324 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.452 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.497 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.497 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.498 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.498 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.634 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.634 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.695 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.695 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.733 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.733 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.737 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.738 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.792 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.792 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.793 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.850 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.850 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.896 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.896 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:33.897 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:33.897 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.061 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.061 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.092 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.092 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.108 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.108 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.170 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.172 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.197 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:26:34.198 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:26:34.282 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"G"}
+06-08-2021 15:26:34.282 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"G" parameterizedStepValue:"G"}}
+06-08-2021 15:26:34.382 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:34.402 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:34.423 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:34.423 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:34.583 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go"}
+06-08-2021 15:26:34.583 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go" parameterizedStepValue:"Go"}}
+06-08-2021 15:26:34.596 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:34.596 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:34.596 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:34.596 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:34.605 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:34.605 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:34.605 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:34.605 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:35.022 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to"}
+06-08-2021 15:26:35.022 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to" parameterizedStepValue:"Go to"}}
+06-08-2021 15:26:35.054 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:35.054 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:35.054 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:35.054 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:35.071 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:35.071 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:35.071 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:35.071 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:36.139 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to lo"}
+06-08-2021 15:26:36.140 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to lo" parameterizedStepValue:"Go to lo"}}
+06-08-2021 15:26:36.186 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:36.187 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:36.189 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:36.189 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:36.243 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to log"}
+06-08-2021 15:26:36.243 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to log" parameterizedStepValue:"Go to log"}}
+06-08-2021 15:26:36.341 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to logi"}
+06-08-2021 15:26:36.341 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to logi" parameterizedStepValue:"Go to logi"}}
+06-08-2021 15:26:36.588 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to login"}
+06-08-2021 15:26:36.589 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to login" parameterizedStepValue:"Go to login"}}
+06-08-2021 15:26:36.688 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:36.688 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:36.688 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:36.688 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:38.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to login p"}
+06-08-2021 15:26:38.104 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to login p" parameterizedStepValue:"Go to login p"}}
+06-08-2021 15:26:38.127 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:38.127 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:38.128 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:38.128 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:38.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to login pag"}
+06-08-2021 15:26:38.411 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to login pag" parameterizedStepValue:"Go to login pag"}}
+06-08-2021 15:26:38.433 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:38.433 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:38.434 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:38.434 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:38.534 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Go to login page"}
+06-08-2021 15:26:38.534 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:26:38.554 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:26:38.554 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:26:38.555 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:26:38.555 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:26:39.324 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 15:27:16.134 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/homePage.spec
+06-08-2021 15:31:36.684 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.686 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.698 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.698 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.793 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.794 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.839 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.839 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.839 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.840 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:36.991 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:36.991 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.080 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.080 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.084 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.084 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.119 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.119 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.120 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.121 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.158 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.200 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.200 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:37.200 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:37.200 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:41.995 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:31:43.096 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.096 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.099 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.099 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.158 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.159 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.159 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.427 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.427 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.482 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.482 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.490 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.491 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.491 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.492 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.492 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.544 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.545 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.545 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.591 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.591 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.592 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.592 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.720 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.768 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.768 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.771 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.771 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.984 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.985 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:43.987 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:31:43.987 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:31:44.080 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"log"}
+06-08-2021 15:31:44.080 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"log" parameterizedStepValue:"log"}}
+06-08-2021 15:31:44.095 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:44.095 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:31:44.096 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:44.096 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:44.283 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"logi"}
+06-08-2021 15:31:44.285 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"logi" parameterizedStepValue:"logi"}}
+06-08-2021 15:31:44.319 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:44.319 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:44.320 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:44.320 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:44.529 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login"}
+06-08-2021 15:31:44.529 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login" parameterizedStepValue:"login"}}
+06-08-2021 15:31:44.557 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:44.557 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:44.557 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:44.557 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:45.427 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login wi"}
+06-08-2021 15:31:45.427 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login wi" parameterizedStepValue:"login wi"}}
+06-08-2021 15:31:45.461 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:45.461 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:45.461 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:45.462 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:45.482 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:45.482 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:45.483 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:45.483 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:45.707 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login wit"}
+06-08-2021 15:31:45.708 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login wit" parameterizedStepValue:"login wit"}}
+06-08-2021 15:31:45.732 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:45.732 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:45.733 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:45.733 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:45.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with"}
+06-08-2021 15:31:45.900 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with" parameterizedStepValue:"login with"}}
+06-08-2021 15:31:45.916 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:45.916 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:45.917 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:45.917 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:48.005 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with ,"}
+06-08-2021 15:31:48.007 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with ," parameterizedStepValue:"login with ,"}}
+06-08-2021 15:31:48.095 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with ,."}
+06-08-2021 15:31:48.095 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with ,." parameterizedStepValue:"login with ,."}}
+06-08-2021 15:31:48.110 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:48.111 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:48.111 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:48.111 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:48.116 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:48.116 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:48.116 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:48.116 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:49.231 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with M"}
+06-08-2021 15:31:49.231 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with M" parameterizedStepValue:"login with M"}}
+06-08-2021 15:31:49.247 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:31:49.247 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:31:49.248 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:31:49.248 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:31:49.438 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with M>"}
+06-08-2021 15:31:49.438 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with M>" parameterizedStepValue:"login with M>"}}
+06-08-2021 15:31:52.970 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <m>"}
+06-08-2021 15:31:52.970 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <m>" parameters:"m"}}
+06-08-2021 15:31:53.170 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <ma>"}
+06-08-2021 15:31:53.170 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <ma>" parameters:"ma"}}
+06-08-2021 15:31:53.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mai>"}
+06-08-2021 15:31:53.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mai>" parameters:"mai"}}
+06-08-2021 15:31:53.506 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mail>"}
+06-08-2021 15:31:53.506 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mail>" parameters:"mail"}}
+06-08-2021 15:31:54.120 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mail@>"}
+06-08-2021 15:31:54.120 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mail@>" parameters:"mail@"}}
+06-08-2021 15:31:55.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <maili@>"}
+06-08-2021 15:31:55.154 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <maili@>" parameters:"maili@"}}
+06-08-2021 15:31:55.345 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim@>"}
+06-08-2021 15:31:55.345 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim@>" parameters:"mailim@"}}
+06-08-2021 15:31:55.522 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@>"}
+06-08-2021 15:31:55.522 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@>" parameters:"mailim2@"}}
+06-08-2021 15:31:56.583 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@m>"}
+06-08-2021 15:31:56.583 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@m>" parameters:"mailim2@m"}}
+06-08-2021 15:31:56.612 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@ma>"}
+06-08-2021 15:31:56.612 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@ma>" parameters:"mailim2@ma"}}
+06-08-2021 15:31:56.813 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@mai>"}
+06-08-2021 15:31:56.815 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mai>" parameters:"mailim2@mai"}}
+06-08-2021 15:31:57.034 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@mail>"}
+06-08-2021 15:31:57.035 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mail>" parameters:"mailim2@mail"}}
+06-08-2021 15:31:57.393 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@maili>"}
+06-08-2021 15:31:57.393 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@maili>" parameters:"mailim2@maili"}}
+06-08-2021 15:31:57.925 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@maili <>"}
+06-08-2021 15:31:57.925 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@maili <>" parameters:"mailim2@maili <"}}
+06-08-2021 15:31:58.287 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with <mailim2@maili\" <>"}
+06-08-2021 15:31:58.287 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@maili\" <>" parameters:"mailim2@maili\" <"}}
+06-08-2021 15:31:59.900 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with mailim2@maili"}
+06-08-2021 15:31:59.902 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with mailim2@maili" parameterizedStepValue:"login with mailim2@maili"}}
+06-08-2021 15:32:00.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@maili\""}
+06-08-2021 15:32:00.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@maili>" parameters:"mailim2@maili"}}
+06-08-2021 15:32:02.929 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailim\""}
+06-08-2021 15:32:02.929 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailim>" parameters:"mailim2@mailim"}}
+06-08-2021 15:32:04.904 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailin\""}
+06-08-2021 15:32:04.904 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailin>" parameters:"mailim2@mailin"}}
+06-08-2021 15:32:05.099 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailina\""}
+06-08-2021 15:32:05.099 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailina>" parameters:"mailim2@mailina"}}
+06-08-2021 15:32:05.348 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinato\""}
+06-08-2021 15:32:05.348 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailinato>" parameters:"mailim2@mailinato"}}
+06-08-2021 15:32:05.608 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.\""}
+06-08-2021 15:32:05.608 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailinator.>" parameters:"mailim2@mailinator."}}
+06-08-2021 15:32:05.913 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.c\""}
+06-08-2021 15:32:05.915 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailinator.c>" parameters:"mailim2@mailinator.c"}}
+06-08-2021 15:32:06.057 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.co\""}
+06-08-2021 15:32:06.057 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailinator.co>" parameters:"mailim2@mailinator.co"}}
+06-08-2021 15:32:06.193 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\""}
+06-08-2021 15:32:06.194 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {}" parameterizedStepValue:"login with <mailim2@mailinator.com>" parameters:"mailim2@mailinator.com"}}
+06-08-2021 15:32:08.098 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" a"}
+06-08-2021 15:32:08.099 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} a" parameterizedStepValue:"login with <mailim2@mailinator.com> a" parameters:"mailim2@mailinator.com"}}
+06-08-2021 15:32:08.113 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:32:08.113 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:32:08.113 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:32:08.113 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:32:08.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and"}
+06-08-2021 15:32:08.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and" parameterizedStepValue:"login with <mailim2@mailinator.com> and" parameters:"mailim2@mailinator.com"}}
+06-08-2021 15:32:08.695 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"\""}
+06-08-2021 15:32:08.695 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <>" parameters:"mailim2@mailinator.com" parameters:""}}
+06-08-2021 15:32:10.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"tes\""}
+06-08-2021 15:32:10.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <tes>" parameters:"mailim2@mailinator.com" parameters:"tes"}}
+06-08-2021 15:32:11.046 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"test\""}
+06-08-2021 15:32:11.047 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <test>" parameters:"mailim2@mailinator.com" parameters:"test"}}
+06-08-2021 15:32:11.739 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"test1\""}
+06-08-2021 15:32:11.739 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <test1>" parameters:"mailim2@mailinator.com" parameters:"test1"}}
+06-08-2021 15:32:11.853 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"test12\""}
+06-08-2021 15:32:11.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <test12>" parameters:"mailim2@mailinator.com" parameters:"test12"}}
+06-08-2021 15:32:11.895 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"test123\""}
+06-08-2021 15:32:11.895 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <test123>" parameters:"mailim2@mailinator.com" parameters:"test123"}}
+06-08-2021 15:32:12.530 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"login with \"mailim2@mailinator.com\" and \"test1234\""}
+06-08-2021 15:32:12.530 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"login with {} and {}" parameterizedStepValue:"login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}
+06-08-2021 15:32:53.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"ogin with \"mailim2@mailinator.com\" and \"test1234\""}
+06-08-2021 15:32:53.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"ogin with {} and {}" parameterizedStepValue:"ogin with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}
+06-08-2021 15:32:53.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login with \"mailim2@mailinator.com\" and \"test1234\""}
+06-08-2021 15:32:53.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}
+06-08-2021 15:32:53.873 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:32:53.874 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"}}
+06-08-2021 15:32:53.875 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:32:53.875 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+06-08-2021 15:33:01.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login with <mailim2@mailinator.com> and <test1234>"}
+06-08-2021 15:33:01.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}
+06-08-2021 15:33:41.096 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:33:59.458 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:34:24.332 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt
+06-08-2021 15:34:24.341 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt
+06-08-2021 15:34:24.751 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step1"}
+06-08-2021 15:34:24.751 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step1" parameterizedStepValue:"step1"}}
+06-08-2021 15:34:24.865 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* step1"}
+06-08-2021 15:34:24.866 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* step1" parameterizedStepValue:"* step1"}}
+06-08-2021 15:34:24.871 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* step2"}
+06-08-2021 15:34:24.871 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* step2" parameterizedStepValue:"* step2"}}
+06-08-2021 15:34:24.932 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Concept Heading"}
+06-08-2021 15:34:24.933 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"}}
+06-08-2021 15:34:24.934 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step2"}
+06-08-2021 15:34:24.934 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step2" parameterizedStepValue:"step2"}}
+06-08-2021 15:34:40.721 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Login"}
+06-08-2021 15:34:40.721 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login" parameterizedStepValue:"Login"}}
+06-08-2021 15:34:42.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Login to"}
+06-08-2021 15:34:42.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to" parameterizedStepValue:"Login to"}}
+06-08-2021 15:34:44.000 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Login to N11"}
+06-08-2021 15:34:44.000 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to N11" parameterizedStepValue:"Login to N11"}}
+06-08-2021 15:34:47.611 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.611 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.624 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.624 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.767 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.767 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.770 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.770 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.938 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.938 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.938 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.938 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:47.939 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+06-08-2021 15:34:47.939 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+06-08-2021 15:34:49.781 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"L"}
+06-08-2021 15:34:49.781 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"L" parameterizedStepValue:"L"}}
+06-08-2021 15:34:50.875 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:34:50.876 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"step1" parameterizedStepValue:"step1"} allSteps:{stepValue:"step2" parameterizedStepValue:"step2"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}
+06-08-2021 15:34:50.877 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:34:50.877 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:34:55.517 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Lo"}
+06-08-2021 15:34:55.517 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Lo" parameterizedStepValue:"Lo"}}
+06-08-2021 15:34:55.591 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:34:55.591 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"} allSteps:{stepValue:"step1" parameterizedStepValue:"step1"} allSteps:{stepValue:"step2" parameterizedStepValue:"step2"}}
+06-08-2021 15:34:55.592 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:34:55.593 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:34:56.443 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Log"}
+06-08-2021 15:34:56.449 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Log" parameterizedStepValue:"Log"}}
+06-08-2021 15:34:56.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login"}
+06-08-2021 15:34:56.691 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login" parameterizedStepValue:"Login"}}
+06-08-2021 15:34:56.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:34:56.708 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"step2" parameterizedStepValue:"step2"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"} allSteps:{stepValue:"step1" parameterizedStepValue:"step1"}}
+06-08-2021 15:34:56.709 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:34:56.709 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:34:58.629 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login to n"}
+06-08-2021 15:34:58.629 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to n" parameterizedStepValue:"Login to n"}}
+06-08-2021 15:34:58.643 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:34:58.643 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"} allSteps:{stepValue:"step1" parameterizedStepValue:"step1"} allSteps:{stepValue:"step2" parameterizedStepValue:"step2"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"}}
+06-08-2021 15:34:58.647 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:34:58.647 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:34:59.084 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login to"}
+06-08-2021 15:34:59.085 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to" parameterizedStepValue:"Login to"}}
+06-08-2021 15:34:59.177 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login to N"}
+06-08-2021 15:34:59.177 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to N" parameterizedStepValue:"Login to N"}}
+06-08-2021 15:34:59.196 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:34:59.196 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"} allSteps:{stepValue:"step1" parameterizedStepValue:"step1"} allSteps:{stepValue:"step2" parameterizedStepValue:"step2"}}
+06-08-2021 15:34:59.197 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:34:59.197 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:34:59.572 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login to N1"}
+06-08-2021 15:34:59.572 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to N1" parameterizedStepValue:"Login to N1"}}
+06-08-2021 15:34:59.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login to N11"}
+06-08-2021 15:34:59.761 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login to N11" parameterizedStepValue:"Login to N11"}}
+06-08-2021 15:35:00.117 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+06-08-2021 15:35:00.120 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Go to login page" parameterizedStepValue:"Go to login page"} allSteps:{stepValue:"Login with {} and {}" parameterizedStepValue:"Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"} allSteps:{stepValue:"step1" parameterizedStepValue:"step1"} allSteps:{stepValue:"step2" parameterizedStepValue:"step2"}}
+06-08-2021 15:35:00.123 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+06-08-2021 15:35:00.123 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{concepts:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"} filepath:"/Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt" lineNumber:4}}
+06-08-2021 15:35:03.754 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/login.spec
+06-08-2021 15:35:03.760 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11-satin-al/specs/concepts/login.cpt
+06-08-2021 15:35:05.434 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Login with \"mailim2@mailinator.com\" and \"test1234\""}
+06-08-2021 15:35:05.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Login with {} and {}" parameterizedStepValue:"* Login with <mailim2@mailinator.com> and <test1234>" parameters:"mailim2@mailinator.com" parameters:"test1234"}}

@@ -1,0 +1,69 @@
+src/test/java/com/n11/gauge/Login.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/com/n11/gauge/Login.java:9: error: cannot find symbol
+    By emailField = By.xpath("//*[@id=\"ap_email\"]");
+    ^
+  symbol:   class By
+  location: class Login
+src/test/java/com/n11/gauge/Login.java:10: error: cannot find symbol
+    By emailButton = By.xpath("//*[@id=\"continue\"]");
+    ^
+  symbol:   class By
+  location: class Login
+src/test/java/com/n11/gauge/Login.java:12: error: cannot find symbol
+    By passwordField = By.xpath("//*[@id=\"ap_password\"]");
+    ^
+  symbol:   class By
+  location: class Login
+src/test/java/com/n11/gauge/OpenHomePage.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/com/n11/gauge/OpenHomePage.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/com/n11/gauge/OpenHomePage.java:6: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/com/n11/gauge/OpenHomePage.java:11: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class OpenHomePage
+src/test/java/com/n11/gauge/OpenHomePage.java:12: error: cannot find symbol
+    By loginButton = By.xpath("//*[@id=\"nav-signin-tooltip\"]/a");
+    ^
+  symbol:   class By
+  location: class OpenHomePage
+src/test/java/com/n11/gauge/Search.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/com/n11/gauge/Search.java:5: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/com/n11/gauge/Login.java:9: error: cannot find symbol
+    By emailField = By.xpath("//*[@id=\"ap_email\"]");
+                    ^
+  symbol:   variable By
+  location: class Login
+src/test/java/com/n11/gauge/Login.java:10: error: cannot find symbol
+    By emailButton = By.xpath("//*[@id=\"continue\"]");
+                     ^
+  symbol:   variable By
+  location: class Login
+src/test/java/com/n11/gauge/Login.java:12: error: cannot find symbol
+    By passwordField = By.xpath("//*[@id=\"ap_password\"]");
+                       ^
+  symbol:   variable By
+  location: class Login
+src/test/java/com/n11/gauge/OpenHomePage.java:12: error: cannot find symbol
+    By loginButton = By.xpath("//*[@id=\"nav-signin-tooltip\"]/a");
+                     ^
+  symbol:   variable By
+  location: class OpenHomePage
+src/test/java/com/n11/gauge/OpenHomePage.java:17: error: cannot find symbol
+        driver = new ChromeDriver();
+                     ^
+  symbol:   class ChromeDriver
+  location: class OpenHomePage
+16 errors
