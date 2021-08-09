@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 765milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 765"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -37,23 +37,26 @@
 {"logLevel":"debug","message":"\tNavigate to {} : public void goToHomePage(String url)"}
 {"logLevel":"debug","message":"\tGo to login page : public void goToLoginPage()"}
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
-{"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
+{"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone) throws InterruptedException"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 57027"}
+{"logLevel":"info","message":"Listening on port:57027"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
+1628493494114	geckodriver	INFO	Listening on 127.0.0.1:38984
+1628493495290	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileOxPf9N"
+1628493496009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileOxPf9N/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1628493498601	Marionette	INFO	Listening on port 57039
+1628493498666	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 09, 2021 10:18:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 {"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
+1628493507075	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
 {"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
 {"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
@@ -64,7 +67,13 @@ JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: 
 JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
 JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
 {"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
+1628493525265	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1628493525266	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1628493525273	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 {"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
+{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
+{"logLevel":"debug","message":"Executing 'Add one product quantity' using 'class com.n11.gauge.pages.CartPage.addQuantity"}
+{"logLevel":"debug","message":"Executing 'Go to payment' using 'class com.n11.gauge.pages.CartPage.payment"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 806milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 806"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -39,32 +39,24 @@
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
 {"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 55499"}
+{"logLevel":"info","message":"Listening on port:55499"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
+1628493020517	geckodriver	INFO	Listening on 127.0.0.1:44241
+1628493021726	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofilefLRzTl"
+1628493022221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofilefLRzTl/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1628493023860	Marionette	INFO	Listening on port 55511
+1628493023934	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 09, 2021 10:10:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+JavaScript error: , line 0: uncaught exception: undefined
 {"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
-{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
-JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
 {"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
-{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

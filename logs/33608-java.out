@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 687milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 687"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -28,7 +28,7 @@
 {"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
-{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct()"}
 {"logLevel":"debug","message":"\tGo to payment : public void payment()"}
 {"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
 {"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
@@ -39,32 +39,22 @@
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
 {"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 55004"}
+{"logLevel":"info","message":"Listening on port:55004"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
-console.error: BackgroundUpdate: 
-  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+1628492827246	geckodriver	INFO	Listening on 127.0.0.1:23193
+1628492828412	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile0Okf4v"
+1628492828997	Marionette	INFO	Marionette enabled
+[Parent 33629, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+[Parent 33629, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+[warn] kqueue: Too many open files in system
+[warn] evutil_make_internal_pipe_: pipe: Too many open files in system
+[err] evsig_init_: socketpair: Too many open files in system
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
-{"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
-{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
-JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
 {"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
-{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

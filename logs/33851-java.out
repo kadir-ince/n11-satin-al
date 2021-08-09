@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 1210milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1210"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -39,33 +39,32 @@
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
 {"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 55913"}
+{"logLevel":"info","message":"Listening on port:55913"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
+1628493129476	geckodriver	INFO	Listening on 127.0.0.1:5802
+1628493130672	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileMIhtdw"
+1628493132170	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileMIhtdw/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1628493134658	Marionette	INFO	Listening on port 55925
+1628493134733	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 09, 2021 10:12:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
 {"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
+[Parent 33894, Main Thread] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+2021-08-09 10:12:20.880 plugin-container[33896:8649421] CoreText: System LastResort not available, using built-in copy.
+2021-08-09 10:12:20.881 firefox-bin[33894:8649706] CoreText: System LastResort not available, using built-in copy.
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
-{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
-JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
+1628493143175	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+{"logLevel":"error","message":"Failed to take regular screenshot: /Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: dlopen(/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib, 1): no suitable image found.  Did find:\n\t/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: open() failed with errno=23"}
 {"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
-{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Killing Java runner..."}
-{"logLevel":"debug","message":"Stopping execution pool..."}
-{"logLevel":"debug","message":"Shutting down grpc server..."}
-{"logLevel":"debug","message":"Runner killed gracefully."}
+{"logLevel":"error","message":"Failed to take regular screenshot: Could not initialize class java.awt.Rectangle"}

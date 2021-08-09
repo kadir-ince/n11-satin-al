@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 881milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 881"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -28,7 +28,7 @@
 {"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
-{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct()"}
 {"logLevel":"debug","message":"\tGo to payment : public void payment()"}
 {"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
 {"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
@@ -39,32 +39,46 @@
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
 {"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 54015"}
+{"logLevel":"info","message":"Listening on port:54015"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
+1628492389098	geckodriver	INFO	Listening on 127.0.0.1:43356
+1628492390264	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileoZQeB5"
+1628492391169	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileoZQeB5/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1628492393724	Marionette	INFO	Listening on port 54027
+1628492393862	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 09, 2021 9:59:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1628492397924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1628492398219	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1628492398224	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1628492398542	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 893: Error: Error(s) encountered during statement execution: unable to open database file
+2021-08-09 09:59:59.243 firefox-bin[33233:8626018] CoreText: System LastResort not available, using built-in copy.
 {"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
+{"logLevel":"error","message":"Failed to take regular screenshot: /Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: dlopen(/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib, 1): no suitable image found.  Did find:\n\t/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: open() failed with errno=23"}
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1628492400482	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1628492401093	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 {"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
+1628492402680	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 33233, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+** Unknown exception behavior: 3
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
 {"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
-{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
-JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
+{"logLevel":"error","message":"Failed to take regular screenshot: Could not initialize class java.awt.Rectangle"}
 {"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
-{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
+{"logLevel":"error","message":"Failed to take regular screenshot: Could not initialize class java.awt.Rectangle"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

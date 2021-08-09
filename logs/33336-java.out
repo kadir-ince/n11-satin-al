@@ -1,7 +1,7 @@
 {"logLevel":"debug","message":"multithreading is set to false"}
 {"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
-{"logLevel":"debug","message":"gauge-java took 714milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 714"}
+{"logLevel":"debug","message":"gauge-java took 780milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 780"}
 {"logLevel":"debug","message":"starting gRPC server..."}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
@@ -28,7 +28,7 @@
 {"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
-{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct()"}
 {"logLevel":"debug","message":"\tGo to payment : public void payment()"}
 {"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
 {"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
@@ -39,33 +39,33 @@
 {"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
 {"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
 {"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
-{"logLevel":"debug","message":"started gRPC server on port 55262"}
-{"logLevel":"info","message":"Listening on port:55262"}
+{"logLevel":"debug","message":"started gRPC server on port 54298"}
+{"logLevel":"info","message":"Listening on port:54298"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
-1628492940102	geckodriver	INFO	Listening on 127.0.0.1:21664
-1628492941273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c"
-1628492941948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileVFEK8c/search.json.mozlz4", (void 0)))
+1628492510291	geckodriver	INFO	Listening on 127.0.0.1:38949
+1628492511466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile9nIHUg"
+1628492512181	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile9nIHUg/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1628492944071	Marionette	INFO	Listening on port 55275
-1628492944135	Marionette	WARN	TLS certificate errors will be ignored for this session
-Aug 09, 2021 10:09:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1628492514473	Marionette	INFO	Listening on port 54310
+1628492514544	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 09, 2021 10:01:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1628492516763	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1628492516958	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 {"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 893: Error: Error(s) encountered during statement execution: unable to open database file
+[Child 33358, mtransport] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 {"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
+2021-08-09 10:01:58.911 plugin-container[33358:8629534] CoreText: System LastResort not available, using built-in copy.
+{"logLevel":"error","message":"Failed to take regular screenshot: /Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: dlopen(/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib, 1): no suitable image found.  Did find:\n\t/Users/kadirince/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib/libawt.dylib: open() failed with errno=23"}
 {"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
-{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
-JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
-{"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
-JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
-{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
-{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
-{"logLevel":"debug","message":"Killing Java runner..."}
-{"logLevel":"debug","message":"Stopping execution pool..."}
-{"logLevel":"debug","message":"Shutting down grpc server..."}
-{"logLevel":"debug","message":"Runner killed gracefully."}
+dyld: Library not loaded: @executable_path/libnss3.dylib
+  Referenced from: /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container
+  Reason: no suitable image found.  Did find:
+	/Applications/Firefox.app/Contents/MacOS/libnss3.dylib: open() failed with errno=23
+[Parent 33357, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 33357, IPC Launch #1] WARNING: parent WaitForMessage() failed: 0x10004003 (ipc/rcv) timed out: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:1298
+[Parent 33357, IPC I/O Parent] WARNING: Failed to launch rdd subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:762
