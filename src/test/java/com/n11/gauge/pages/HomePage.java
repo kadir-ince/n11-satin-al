@@ -3,9 +3,10 @@ package com.n11.gauge.pages;
 import com.thoughtworks.gauge.Step;
 
 import static com.n11.gauge.base.BaseMethods.click;
+import static com.n11.gauge.base.BaseMethods.sendKeys;
 import static com.n11.gauge.base.BaseTest.Setup;
 import static com.n11.gauge.base.BaseTest.driver;
-import static com.n11.gauge.constants.HomePageConstants.LOGIN_PAGE_LINK;
+import static com.n11.gauge.constants.HomePageConstants.*;
 
 public class HomePage {
     @Step("Navigate to <https://n11.com>")
@@ -18,4 +19,19 @@ public class HomePage {
     public void goToLoginPage() {
         click(LOGIN_PAGE_LINK);
     }
+
+    @Step("Click random product on home page")
+    public void clickRandomProduct() {
+//        click(RANDOM_PRODUCT);
+        driver.navigate().to("https://www.n11.com/urun/xiaomi-mi-box-s-4k-android-tv-medya-oynatici-857648?magaza=vesmark");
+    }
+
+    @Step("Fill search box with <iphone>")
+    public void searchPhone(String phone) {
+
+        sendKeys(SEARCH_BOX, phone);
+        click(SEARCH_BUTTON);
+    }
+
+
 }

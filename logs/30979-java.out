@@ -1,0 +1,108 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 904milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 904"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
+{"logLevel":"debug","message":"Found Go to payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.addQuantity' and 'com.n11.gauge.pages.CartPage.addQuantity'"}
+{"logLevel":"debug","message":"Found Add one product quantity in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.deleteProduct' and 'com.n11.gauge.pages.CartPage.deleteProduct'"}
+{"logLevel":"debug","message":"Found Delete random product from cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToHomePage' and 'com.n11.gauge.pages.HomePage.goToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.addToCart' and 'com.n11.gauge.pages.PhonePage.addToCart'"}
+{"logLevel":"debug","message":"Found Add to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.searchPhone' and 'com.n11.gauge.pages.HomePage.searchPhone'"}
+{"logLevel":"debug","message":"Found Fill search box with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToLoginPage' and 'com.n11.gauge.pages.HomePage.goToLoginPage'"}
+{"logLevel":"debug","message":"Found Go to login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPage.clickLastPhone' and 'com.n11.gauge.pages.SearchPage.clickLastPhone'"}
+{"logLevel":"debug","message":"Found Click last phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.goToCart' and 'com.n11.gauge.pages.PhonePage.goToCart'"}
+{"logLevel":"debug","message":"Found Go to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.LoginPage.login' and 'com.n11.gauge.pages.LoginPage.login'"}
+{"logLevel":"debug","message":"Found Login with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickRandomProduct' and 'com.n11.gauge.pages.HomePage.clickRandomProduct'"}
+{"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct()"}
+{"logLevel":"debug","message":"\tGo to payment : public void payment()"}
+{"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
+{"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tDelete random product from cart : public void deleteProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin with {} and {} : public void login(String email, String password)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void goToHomePage(String url)"}
+{"logLevel":"debug","message":"\tGo to login page : public void goToLoginPage()"}
+{"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
+{"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone)"}
+{"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
+{"logLevel":"debug","message":"started gRPC server on port 64718"}
+{"logLevel":"info","message":"Listening on port:64718"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
+1628452844078	geckodriver	INFO	Listening on 127.0.0.1:10656
+1628452845272	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileS5xIfO"
+1628452846204	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileS5xIfO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1628452848526	Marionette	INFO	Listening on port 64731
+1628452848559	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 08, 2021 11:00:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: t.countdown is not a function
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+{"logLevel":"debug","message":"Executing 'Login with {} and {}' using 'class com.n11.gauge.pages.LoginPage.login"}
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: t.countdown is not a function
+{"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
+{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: t.countdown is not a function
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+{"logLevel":"debug","message":"Executing 'Go to cart' using 'class com.n11.gauge.pages.PhonePage.goToCart"}
+{"logLevel":"debug","message":"Executing 'Delete random product from cart' using 'class com.n11.gauge.pages.CartPage.deleteProduct"}
+JavaScript error: https://n11scdn.akamaized.net/static/new-design/static/output/js/n11_1627999763189.js, line 1: TypeError: Ll(...) is undefined
+{"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
+JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 4: TypeError: basketProducts is undefined
+JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 3: TypeError: basketProducts is undefined
+JavaScript error: https://www.n11.com/sepetim line 29 > injectedScript, line 1: TypeError: basketProducts is undefined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+{"logLevel":"debug","message":"Executing 'Click last phone' using 'class com.n11.gauge.pages.SearchPage.clickLastPhone"}
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: t.countdown is not a function
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+JavaScript error: https://n11scdn.akamaized.net/custom/guide/helper/utild-min.js, line 1: TypeError: $(...).offset() is undefined
+{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.PhonePage.addToCart"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
