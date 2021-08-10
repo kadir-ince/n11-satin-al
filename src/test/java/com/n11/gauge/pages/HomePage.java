@@ -31,11 +31,8 @@ public class HomePage {
     }
 
     @Step("Fill search box with <iphone>")
-    public void searchPhone(String phone) throws InterruptedException {
-        Thread.sleep(1000);
+    public void searchPhone(String phone) {
         sendKeys(SEARCH_BOX, phone);
         click(SEARCH_BUTTON);
     }
-
-
 }

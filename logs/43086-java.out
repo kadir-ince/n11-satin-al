@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 866milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 866"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
+{"logLevel":"debug","message":"Found Go to payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.addQuantity' and 'com.n11.gauge.pages.CartPage.addQuantity'"}
+{"logLevel":"debug","message":"Found Add one product quantity in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.deleteProduct' and 'com.n11.gauge.pages.CartPage.deleteProduct'"}
+{"logLevel":"debug","message":"Found Delete random product from cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToHomePage' and 'com.n11.gauge.pages.HomePage.goToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.addToCart' and 'com.n11.gauge.pages.PhonePage.addToCart'"}
+{"logLevel":"debug","message":"Found Add to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.searchPhone' and 'com.n11.gauge.pages.HomePage.searchPhone'"}
+{"logLevel":"debug","message":"Found Fill search box with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToLoginPage' and 'com.n11.gauge.pages.HomePage.goToLoginPage'"}
+{"logLevel":"debug","message":"Found Go to login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPage.clickLastPhone' and 'com.n11.gauge.pages.SearchPage.clickLastPhone'"}
+{"logLevel":"debug","message":"Found Click last phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.goToCart' and 'com.n11.gauge.pages.PhonePage.goToCart'"}
+{"logLevel":"debug","message":"Found Go to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.LoginPage.login' and 'com.n11.gauge.pages.LoginPage.login'"}
+{"logLevel":"debug","message":"Found Login with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickRandomProduct' and 'com.n11.gauge.pages.HomePage.clickRandomProduct'"}
+{"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to payment : public void payment()"}
+{"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
+{"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tDelete random product from cart : public void deleteProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin with {} and {} : public void login(String email, String password)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void goToHomePage(String url)"}
+{"logLevel":"debug","message":"\tGo to login page : public void goToLoginPage()"}
+{"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
+{"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
+{"logLevel":"debug","message":"started gRPC server on port 56337"}
+{"logLevel":"info","message":"Listening on port:56337"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.goToHomePage"}
+1628584283194	geckodriver	INFO	Listening on 127.0.0.1:1546
+1628584284355	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileB3xpK7"
+1628584285045	Marionette	INFO	Marionette enabled
+2021-08-10 11:31:25.661 plugin-container[43113:9327757] CoreText: System LastResort not available, using built-in copy.
+[Parent 43112, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+[Parent 43112, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1023: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextContentPrincipal]
+[Parent 43112, Main Thread] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 433: TypeError: this.browsingContext is null
+[Child 43113, Worker Launcher] WARNING: Unable to create pipe in server mode error(Too many open files in system).: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:161
+[Parent 43112, IPDL Background] WARNING: failed to open shm: Too many open files in system: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/shared_memory_posix.cc:354
+2021-08-10 11:31:25.796 firefox-bin[43112:9327790] CoreText: System LastResort not available, using built-in copy.
+** Unknown exception behavior: 3
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+{"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+{"logLevel":"debug","message":"Executing 'Click random product on home page' using 'class com.n11.gauge.pages.HomePage.clickRandomProduct"}
+{"logLevel":"debug","message":"Executing 'Fill search box with {}' using 'class com.n11.gauge.pages.HomePage.searchPhone"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

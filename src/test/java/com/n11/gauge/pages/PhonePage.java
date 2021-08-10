@@ -7,10 +7,8 @@ import static com.n11.gauge.constants.AddToCartConstants.*;
 
 public class PhonePage {
     @Step("Add to cart")
-    public void addToCart() throws InterruptedException {
-        Thread.sleep(1000);
+    public void addToCart() {
         click(ADD_TO_CART);
-        Thread.sleep(1000);
     }
 
     @Step("Go to cart")

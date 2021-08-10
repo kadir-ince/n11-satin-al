@@ -1,5 +1,4 @@
-Add Product To Cart
-===================
+# Add Product To Cart
 
 ## Search phone
 * Fill search box with "iphone"
@@ -7,3 +6,4 @@ Add Product To Cart
 * Add Product To Cart
 * Add one product quantity
 * Go to payment
+* Fill payment inputs

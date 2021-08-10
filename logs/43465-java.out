@@ -1,0 +1,122 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 692milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 692"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56634"}
+{"logLevel":"info","message":"Listening on port:56634"}
+2021-08-10 11:41:09 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Too many open files in system
+	at java.base/sun.nio.ch.Net.accept(Native Method)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:424)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:390)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:119)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:116)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils.accept(SocketUtils.java:116)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioServerSocketChannel.doReadMessages(NioServerSocketChannel.java:147)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:75)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-08-10 11:41:10 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Too many open files in system
+	at java.base/sun.nio.ch.Net.accept(Native Method)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:424)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:390)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:119)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:116)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils.accept(SocketUtils.java:116)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioServerSocketChannel.doReadMessages(NioServerSocketChannel.java:147)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:75)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-08-10 11:41:12 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Too many open files in system
+	at java.base/sun.nio.ch.Net.accept(Native Method)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:424)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:390)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:119)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:116)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils.accept(SocketUtils.java:116)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioServerSocketChannel.doReadMessages(NioServerSocketChannel.java:147)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:75)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.payment' and 'com.n11.gauge.pages.CartPage.payment'"}
+{"logLevel":"debug","message":"Found Go to payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.addQuantity' and 'com.n11.gauge.pages.CartPage.addQuantity'"}
+{"logLevel":"debug","message":"Found Add one product quantity in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.CartPage.deleteProduct' and 'com.n11.gauge.pages.CartPage.deleteProduct'"}
+{"logLevel":"debug","message":"Found Delete random product from cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToHomePage' and 'com.n11.gauge.pages.HomePage.goToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.addToCart' and 'com.n11.gauge.pages.PhonePage.addToCart'"}
+{"logLevel":"debug","message":"Found Add to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.searchPhone' and 'com.n11.gauge.pages.HomePage.searchPhone'"}
+{"logLevel":"debug","message":"Found Fill search box with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.goToLoginPage' and 'com.n11.gauge.pages.HomePage.goToLoginPage'"}
+{"logLevel":"debug","message":"Found Go to login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPage.clickLastPhone' and 'com.n11.gauge.pages.SearchPage.clickLastPhone'"}
+{"logLevel":"debug","message":"Found Click last phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.PhonePage.goToCart' and 'com.n11.gauge.pages.PhonePage.goToCart'"}
+{"logLevel":"debug","message":"Found Go to cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.LoginPage.login' and 'com.n11.gauge.pages.LoginPage.login'"}
+{"logLevel":"debug","message":"Found Login with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickRandomProduct' and 'com.n11.gauge.pages.HomePage.clickRandomProduct'"}
+{"logLevel":"debug","message":"Found Click random product on home page in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick random product on home page : public void clickRandomProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to payment : public void payment()"}
+{"logLevel":"debug","message":"\tGo to cart : public void goToCart()"}
+{"logLevel":"debug","message":"\tAdd to cart : public void addToCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tDelete random product from cart : public void deleteProduct() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin with {} and {} : public void login(String email, String password)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void goToHomePage(String url)"}
+{"logLevel":"debug","message":"\tGo to login page : public void goToLoginPage()"}
+{"logLevel":"debug","message":"\tClick last phone : public void clickLastPhone()"}
+{"logLevel":"debug","message":"\tFill search box with {} : public void searchPhone(String phone) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAdd one product quantity : public void addQuantity()"}
+2021-08-10 11:41:15 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Too many open files in system
+	at java.base/sun.nio.ch.Net.accept(Native Method)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.implAccept(ServerSocketChannelImpl.java:424)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:390)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:119)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils$5.run(SocketUtils.java:116)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at io.grpc.netty.shaded.io.netty.util.internal.SocketUtils.accept(SocketUtils.java:116)
+	at io.grpc.netty.shaded.io.netty.channel.socket.nio.NioServerSocketChannel.doReadMessages(NioServerSocketChannel.java:147)
+	at io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:75)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+{"logLevel":"debug","message":"Executing 'Go to login page' using 'class com.n11.gauge.pages.HomePage.goToLoginPage"}
+objc[43482]: couldn't dlopen libobjc-trampolines.dylib: dlopen(/usr/lib/libobjc-trampolines.dylib, 262): no suitable image found.  Did find:
+	/usr/lib/libobjc-trampolines.dylib: open() failed with errno=23
